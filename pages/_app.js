@@ -8,8 +8,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Nav />
-      <Component {...pageProps} />;
-      <Footer className='footer'/>
+      <Component {...pageProps} />
+      <Footer className="footer" />
     </Layout>
   );
 }

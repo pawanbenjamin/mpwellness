@@ -1,8 +1,10 @@
 import React from "react";
 
+const footerStyles = {};
+
 function Footer(props) {
   return (
-    <div>
+    <div style={footerStyles}>
       <h5>I'm a footer</h5>
     </div>
   );
